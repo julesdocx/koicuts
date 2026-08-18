@@ -1,7 +1,7 @@
 :root {
   --text-h: #606060;
   --text: #08060d;
-  --bg: #fff;
+  --bg: #d4d4d4;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --social-bg: rgba(244, 243, 236, 0.5);
@@ -60,6 +60,7 @@
 
 body {
   margin: 0;
+  background: var(--bg);
 }
 
 h1,
@@ -105,3 +106,4 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
