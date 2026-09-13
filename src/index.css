@@ -1,7 +1,7 @@
 :root {
-  --text-h: #606060;
+  --text-h: #000000;
   --text: #08060d;
-  --bg: #d4d4d4;
+  --bg: #ffffff;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --social-bg: rgba(244, 243, 236, 0.5);
@@ -71,13 +71,8 @@ h2 {
 }
 
 h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
+  font-size: 16px;
   margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
 }
 h2 {
   font-size: 24px;
